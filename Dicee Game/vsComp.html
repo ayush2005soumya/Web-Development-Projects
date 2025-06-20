@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Game</title>
+    <link rel="stylesheet" href="vsComp.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Choose Your Dice</h1>
+
+      <div class="dice">
+        <p>Player (You)</p>
+        
+        <img class="img1" src="./images/dice6.png" alt="Dice showing 6" />
+      </div>
+
+      <div class="dice">
+        <p>Computer</p>
+        <img class="img2" src="./images/dice6.png" alt="Dice showing 6" />
+      </div>
+    </div>
+    <div class="selection">
+      <label for="userDice">Select Your Dice Number:</label>
+      <select id="userDice" aria-label="Select Your Dice Number">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+      </select>
+    </div>
+    <div class="roll">
+      <button onclick="playGame()" class="rollbut">Roll</button>
+      <button onclick="location.href='index.html'" class="home">Home</button>
+    </div>
+    <footer>
+      <p>
+        © 2025 Ayush Chatterjee. All rights reserved. Last updated: June 2025
+      </p>
+    </footer>
+    <script src="vsComp.js"></script>
+  </body>
+</html>

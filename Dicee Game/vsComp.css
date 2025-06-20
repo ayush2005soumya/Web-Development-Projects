@@ -1,0 +1,90 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 4.1rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer p{
+  margin-top: 2%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  font-size: 20px;
+}
+.roll {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.roll button{
+  background-color: #4ECCA3;
+  color: #393E46;
+  border: none;
+  margin-top: 25px;
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: 'Indie Flower', cursive;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.roll .rollbut{
+  margin-left: 1.5%;
+}
+.roll .home{
+  margin-left: 10px;
+}
+.roll button:hover {
+  background-color: #ffffff;
+  color: #4000ff;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.selection {
+  margin: 40px auto 0 auto;  /* top margin to give space from container */
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; /* space between label and dropdown */
+}
+
+.selection label {
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: 'Indie Flower', cursive;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 0 10px;
+}
